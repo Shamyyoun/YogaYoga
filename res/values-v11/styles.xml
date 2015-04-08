@@ -1,0 +1,22 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- values-v11 -->
+
+
+    <!-- v11+ customizations -->
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/actionbarStyle</item>
+    </style>
+
+    <style name="actionbarStyle" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/sky</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:titleTextStyle">@style/titleBarStyle</item>
+        <item name="android:icon">@drawable/main_abicon</item>
+    </style>
+
+    <style name="titleBarStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

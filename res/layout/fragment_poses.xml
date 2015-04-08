@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/grid_poses"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg"
+    android:numColumns="2"
+	android:paddingTop="3dp"
+	android:paddingBottom="3dp"
+	android:listSelector="#00000000" >
+
+</GridView>

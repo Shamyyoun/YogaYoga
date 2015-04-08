@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4.4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Yoga Exercise - Cat Pose (Bidalasana)"
+            android:textColor="@color/sky" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginBottom="15dp"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_rect_filled" >
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Progress: "
+                        android:textColor="@color/sky"
+                        android:textSize="10sp" />
+
+                    <com.socyle.yogayoga.customviews.ProgramProgressView
+                        android:id="@+id/progressView_program"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="2dp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounded_rect_filled" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/TextView01"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"
+                            android:text="Next time: "
+                            android:textColor="@color/sky"
+                            android:textSize="10sp" />
+
+                        <com.socyle.yogayoga.customviews.ProgramNextTimeView
+                            android:id="@+id/nextTimeCircle"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_margin="2dp" />
+                    </LinearLayout>
+
+                    <ImageButton
+                        android:id="@+id/imageButton2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:background="@android:color/transparent"
+                        android:padding="3dp"
+                        android:src="@drawable/program_but_config" />
+                </FrameLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/image_nextExercise"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.2"
+                android:background="@drawable/rounded_rect_stroke_gray"
+                android:src="@drawable/ex_char1" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/button_startProgram"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="80dp"
+        android:layout_weight="1"
+        android:background="@android:color/transparent"
+        android:src="@drawable/program_but_start" />
+
+</LinearLayout>

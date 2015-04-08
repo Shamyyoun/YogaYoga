@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_runningexercise_header"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/runningprogram_exerciseheader"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/text_runningexercise_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="Cat Pose (Bidalasana)"
+            android:textColor="@android:color/white"
+            android:textSize="8dp" />
+
+        <ImageView
+            android:id="@+id/image_runningexercise_icon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center"
+            android:layout_marginRight="5dp"
+            android:layout_weight="1"
+            android:src="@drawable/ex1_01" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/layout_runningExercise_subitemContainer"
+            android:layout_width="0dp"
+            android:layout_weight="10"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="7dp"
+            android:paddingRight="1dp" >
+        </LinearLayout>
+
+        <View
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="15dp"
+            android:background="#AAADAD"
+            android:layout_width="0dp"
+            android:layout_weight="0.11"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- values-v14 -->
+    
+    <!-- v14+ customizations -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/actionbarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

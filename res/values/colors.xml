@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sky">#00ada7</color>
+    <color name="sky_light">#a0e0de</color>
+    <color name="sky_dark">#00aea8</color>
+    <color name="gray">#ececeb</color>
+    <color name="gray_dark">#ababab</color>
+    <color name="progressview_bgcolor">#b7b6b7</color>
+    <color name="progressview_fgcolor">#59bebe</color>
+    <color name="videoprogressbar_fgcolor">#3fd3ce</color>
+    <color name="videoprogressbar_bgcolor">#b2b2b2</color>
+    <color name="timer_circle_bg">#cfd2d7</color>
+    <color name="timer_circle_fill1">#54bec2</color>
+    <color name="timer_circle_fill2">#00aea8</color>
+    <color name="videoprogress_bgcolor">#abaeae</color>
+    <color name="videoprogress_fgcolor">#00aea8</color>
+    <color name="menudrawer_selecteditem">#86b2b2</color>
+    
+</resources>

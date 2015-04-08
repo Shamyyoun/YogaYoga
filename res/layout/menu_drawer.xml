@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/image_loading_menu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/menu_loading" />
+
+            <ImageButton
+                android:id="@+id/button_menuHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@android:color/transparent"
+                android:src="@drawable/menu_icon" />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/text_home"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.125"
+            android:drawableLeft="@drawable/menu_icon_home"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="8dp"
+            android:text="Home"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_poses"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.125"
+            android:drawableLeft="@drawable/menu_icon_poses"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="8dp"
+            android:text="All Poses"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_program"
+            android:layout_width="match_parent"
+           android:layout_height="0dp"
+            android:layout_weight="0.125"
+            android:drawableLeft="@drawable/menu_icon_program"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="8dp"
+            android:text="My Program"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_music"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.125"
+            android:drawableLeft="@drawable/menu_icon_music"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="8dp"
+            android:text="Music"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_timer"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.125"
+            android:drawableLeft="@drawable/menu_icon_timer"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:paddingBottom="8dp"
+            android:paddingLeft="25dp"
+            android:paddingTop="8dp"
+            android:text="Timer"
+            android:textColor="@android:color/white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</ScrollView>
